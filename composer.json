@@ -1,0 +1,15 @@
+{
+    "name": "adminpc/on-the-job",
+    "description": "Karma Blackshaw",
+    "require": {
+        "carbondate/carbon": "^1.33",
+        "tecnickcom/tcpdf": "^6.2",
+        "kwn/number-to-words": "^1.6"
+    },
+    "autoload": {
+         "classmap": [
+            "models/",
+            "lib/"
+        ]
+    }
+}

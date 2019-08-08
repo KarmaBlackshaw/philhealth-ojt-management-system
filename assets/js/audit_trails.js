@@ -1,0 +1,1 @@
+$(document).ready(function(){ loadAuditsTable(); }); function loadAuditsTable(){ $.ajax({ url : '../controllers/AuditsController.php', method : 'POST', data : {loadAuditsTable : 1}, success : function(data){ $('#tbodyAuditTrails').html(data); }, error : function(data){ console.log(data); } }); }
